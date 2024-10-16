@@ -1,0 +1,107 @@
+
+
+/* Dashboard Container Styling */
+.dashboard-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 90px;
+    border-radius: 10px; /* Optional: gives a rounded edge effect */
+    background-image: url('https://workik.com/staticassets/images/Bottom%20Grid.svg');
+    background-size: cover; /* Ensure the background covers the entire area */
+    background-position: center; /* Center the background image */
+    min-height: 100vh; /* Optional: set a minimum height for the dashboard */
+  }
+  
+
+
+
+
+
+/* General Footer Styling */
+.footer {
+    width: 100%;
+    background: linear-gradient(45deg, #2a1e28, #7ab5a5);
+    color: #fff;
+    padding: 0;
+  }
+  
+  /* Footer Content Styling */
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  /* Column 1: Company Info */
+  .company-info {
+    flex: 1 1 250px;
+    margin-bottom: 0;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .company-name {
+    margin-bottom: 15px;
+  }
+  
+  .company-description {
+    margin-top: 0;
+  }
+  
+  /* Column 2: Products */
+  .products {
+    flex: 1 1 150px;
+    margin-left: 12%;
+  }
+  
+  .footer-heading {
+    margin-bottom: 15px;
+  }
+  
+  .footer-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Column 3: Contact Info */
+  .contact-info {
+    flex: 1 1 250px;
+    margin-bottom: 0;
+  }
+  
+  /* Social Media Links */
+  .social-media {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .social-link {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .social-link:hover {
+    color: #ddd; /* Optional hover effect */
+  }
+  
+  /* Footer Bottom Line */
+  .footer-bottom {
+    text-align: center;
+    margin-top: 10px;
+    border-top: 1px solid #555;
+    padding-top: 10px;
+  }
+  

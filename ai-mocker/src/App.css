@@ -1,0 +1,29 @@
+/* Ensure the app container takes full height */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Flex container to ensure proper layout */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Full height of the viewport */
+}
+
+/* Main content will take the remaining space between the header and footer */
+.content {
+  flex-grow: 1;
+}
+
+/* Footer styles */
+footer {
+  width: 100%;
+  background: linear-gradient(45deg, #2a1e28, #7ab5a5);
+  color: #fff;
+  padding: 0px 0;
+  position: relative;
+  bottom: 0;
+  left: 0;
+}
