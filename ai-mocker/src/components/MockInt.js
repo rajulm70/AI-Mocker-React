@@ -5,7 +5,7 @@ export default function MockInt() {
     return (
         <div>
             <div 
-                className="card" 
+                className="card text-center" 
                 style={{ 
                     width: '24rem', 
                     display: 'flex', 
@@ -45,7 +45,7 @@ export default function MockInt() {
                 </ul>
                 <div className="card-body">
                     <Link  className="card-link" to="/interview">Start Now</Link>
-                    <Link className="card-link" href="/essay">Learn More</Link>
+                    <Link className="card-link" to="/essay">Learn More</Link>
                 </div>
             </div>
         </div>

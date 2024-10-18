@@ -84,6 +84,7 @@ export default function Navbar() {
         className="navbar navbar-expand-lg py-3 navbar-dark"
         style={{
           background: 'linear-gradient(45deg, #3f1f45, #a4e7d1)', // New gradient background
+          
         }}
       >
         <div className="container-fluid">
@@ -138,8 +139,8 @@ export default function Navbar() {
               <Link to="/login" className="btn btn-primary mx-2" role="button">
                 Login
               </Link>
-              <Link to="/signup" className="btn btn-primary mx-2" role="button">
-                Signup
+              <Link to="/register" className="btn btn-primary mx-2" role="button">
+                Register
               </Link>
             
           </div>

@@ -1,14 +1,16 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function MockEssay() {
   return (
     <div>
       <div>
         <div
-          className="card"
+          className="card text-center"
           style={{
             width: '24rem',
             display: 'flex',
+            cursor: 'pointer',
             borderRadius: '15px', // Rounded corners
             border: '1px solid rgba(0, 0, 0, 0.1)', // Faded border
             boxShadow: '7px 22px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)', // Subtle shadow for depth
@@ -44,12 +46,12 @@ export default function MockEssay() {
             <li className="list-group-item">Real-time feedback on essays</li>
           </ul>
           <div className="card-body">
-            <a href="/" className="card-link">
+            <Link to="/essay" className="card-link" >
               Start Writing
-            </a>
-            <a href="/" className="card-link">
+            </Link>
+            <Link to="/" className="card-link">
               Learn More
-            </a>
+            </Link>
           </div>
         </div>
       </div>

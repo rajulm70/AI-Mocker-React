@@ -20,10 +20,10 @@ export default function About() {
                 <div className="card" style={{
                     width: '18rem', height: '20rem',
                     border: '1px solid rgba(0, 0, 0, 0.1)', // Faded border
-                    boxShadow: '7px 22px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'
+                    boxShadow: '7px 22px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)',
                 }}>
                     <img
-                        src={require('./Assets/MyPhoto.jpg')} // Replace with your image URL
+                        src={require('./Assets/MyPhoto-bg.png')} // Replace with your image URL
                         className="card-img-top"
                         alt="..."
                         style={{ height: '60%' }}
@@ -42,7 +42,7 @@ export default function About() {
                     boxShadow: '7px 22px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'
                 }}>
                     <img
-                        src={require('./Assets/Vansh.jpg')} // Replace with your image URL
+                        src={require('./Assets/Vansh-bg.png')} // Replace with your image URL
                         className="card-img-top"
                         alt="..."
                         style={{ height: '60%' }}
@@ -61,7 +61,7 @@ export default function About() {
                     boxShadow: '7px 22px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'
                 }}>
                     <img
-                        src={require('./Assets/Yogendra.jpg')} // Replace with your image URL
+                        src={require('./Assets/Yogi-bg.png')} // Replace with your image URL
                         className="card-img-top"
                         alt="..."
                         style={{ height: '60%' }}
@@ -80,7 +80,7 @@ export default function About() {
                     boxShadow: '7px 22px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'
                 }}>
                     <img
-                        src={require('./Assets/Rishabh.jpg')} // Replace with your image URL
+                        src={require('./Assets/Rishabh-bg.png')} // Replace with your image URL
                         className="card-img-top"
                         alt="..."
                         style={{ height: '60%' }}
